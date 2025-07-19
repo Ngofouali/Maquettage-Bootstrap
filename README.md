@@ -20,3 +20,6 @@
 <br/>
 <h3>6. Ajout de la section "Contact"</h3>
 <img src="Captures/contatcts.png">
+<br/>
+<h3>7. Affichage sur mobile</h3>
+<img src="Captures/mobile.png">
