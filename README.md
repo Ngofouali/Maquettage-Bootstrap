@@ -1,6 +1,6 @@
 <h1>Maquettage Responsive - Wireframe --> Code (Bootstrap)</h1>
 <img src="Captures/page-principale.png">
-<h3><p>Ce projet est une TP concrèt de l'intégration d'une maquette web, depuis les croquis initiaux dessinés à la main jusqu'à un site web fonctionnel, esthétique et entièrement responsive. L'objectif était de traduire une vision de design en code HTML et CSS propre en s'appuyant sur le framework Bootstrap 5.</p></h3>
+<h3><p>Ce projet est un TP concret de l'intégration d'une maquette web, depuis les croquis initiaux dessinés à la main jusqu'à un site web fonctionnel, esthétique et entièrement responsive. L'objectif était de traduire une vision de design en code HTML et CSS propre en s'appuyant sur le framework Bootstrap 5.</p></h3>
 <h3>1. Création du projet Angular</h3>
 <img src="Captures/Creation-projet.png">
 <br/>
