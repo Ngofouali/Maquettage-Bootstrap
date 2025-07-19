@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquette Responsive Bootstrap</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <strong>Logo</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarnav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Rechercher..." aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Go</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+<main>
+    <section id="caroussel-section">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://placehold.co/600x400/969696/FFFFFF?text=Carousel+Image+1" class="d-block w-100" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://placehold.co/600x400/6ab04c/FFFFFF?text=Carousel+Image+2" class="d-block w-100" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://placehold.co/600x400/4834d4/FFFFFF?text=Carousel+Image+3" class="d-block w-100" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://placehold.co/600x400/f0932b/FFFFFF?text=Carousel+Image+4" class="d-block w-100" alt="...">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- ================= -->
+    <!-- Cards Section
+    <!==================== -->
+    <section id="cards-section" class="py-5">
+        <div class="container">
+            <div class="row gy-4">
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-12">
+                    <div class="card h-100">
+                        <img src="https://placehold.co/400x250/cccccc/333333?text=Image+Montagne+1" class="card-img-top" alt="Montagne">
+                        <div class="card-body">
+                            <h5 class="card-title">Notre service phare</h5>
+                            <p class="card-text">Description courte du service. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">Voir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-12">
+                    <div class="card h-100">
+                        <img src="https://placehold.co/400x250/cccccc/333333?text=Image+Montagne+2" class="card-img-top" alt="Montagne">
+                        <div class="card-body">
+                            <h5 class="card-title">Un autre service</h5>
+                            <p class="card-text">Description courte du service. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="#" class="btn btn-primary">Voir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-12">
+                    <div class="card h-100">
+                        <img src="https://placehold.co/400x250/cccccc/333333?text=Image+Montagne+3" class="card-img-top" alt="Montagne">
+                        <div class="card-body">
+                            <h5 class="card-title">Service additionnel</h5>
+                            <p class="card-text">Description courte du service. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                            <a href="#" class="btn btn-primary">Voir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- Section "Notre Équipe"-->
+    <!-- ====================================================== -->
+    <section id="team-section" class="py-5 bg-light d-none d-lg-block">
+        <div class="container text-center">
+            <h2 class="mb-5">Notre Équipe</h2>
+            <div class="row">
+                <!-- Membre 1 -->
+                <div class="col-lg-4 team-member">
+                    <img src="https://placehold.co/150/f0e68c?text=Visage+1" class="rounded-circle mb-3" alt="Membre de l'équipe">
+                    <h5>Namizata Happi</h5>
+                    <p>Directrice</p>
+                </div>
+                <!-- Membre 2 -->
+                <div class="col-lg-4 team-member">
+                    <img src="https://placehold.co/150/add8e6?text=Visage+2" class="rounded-circle mb-3" alt="Membre de l'équipe">
+                    <h5>N'gofouali Fofana</h5>
+                    <p>Développeur</p>
+                </div>
+                <!-- Membre 3 -->
+                <div class="col-lg-4 team-member">
+                    <img src="https://placehold.co/150/90ee90?text=Visage+3" class="rounded-circle mb-3" alt="Membre de l'équipe">
+                    <h5>Marc Kouassi</h5>
+                    <p>Designer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================ -->
+    <!-- Footer avec Contact & Map -->
+    <!-- ================================ -->
+    <footer class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <!-- Colonne Contact -->
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h4 class="mb-4">Contact</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <i class="fas fa-envelope me-2"></i> info@icodici.com
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-phone me-2"></i> +225 07 49 00 23 94
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-map-marker-alt me-2"></i> 01 BP 303, San Pedro, Côte d'Ivoire
+                        </li>
+                    </ul>
+                </div>
+                <!-- Colonne Google Map -->
+                <div class="col-lg-6">
+                    <h4 class="mb-4">Trouvez-nous</h4>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d557.8562851261306!2d-6.6550290753532675!3d4.778975974837542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xf96137acf7ce97b%3A0xe9c4cd8d177bac60!2sICODI!5e0!3m2!1sfr!2sci!4v1752923916479!5m2!1sfr!2sci"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</main>
+
+</body>
+</html>
